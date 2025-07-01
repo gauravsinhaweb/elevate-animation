@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
 @font-face {
   font-family: 'Gilroy';
   src: url('./assets/fonts/Gilroy-Regular.woff2') format('woff2');
@@ -11,8 +13,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
