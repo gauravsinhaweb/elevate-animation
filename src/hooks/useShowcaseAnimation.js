@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const useAnimationSequence = () => {
+export const useShowcaseAnimation = () => {
     const [animationTrigger, setAnimationTrigger] = useState(0);
     const [showElevateText, setShowElevateText] = useState(false);
     const [elevateContent, setElevateContent] = useState(false);
@@ -45,4 +45,4 @@ export const useAnimationSequence = () => {
         fadeOut,
         triggerAnimation
     };
-};
+}; 
