@@ -1,10 +1,9 @@
 const ControlButton = ({ onClick }) => (
     <button
         onClick={onClick}
-        className="fixed cursor-pointer bottom-8 p-4 bg-black text-white rounded-lg flex items-center gap-3 shadow-lg border border-white "
-
+        className="fixed cursor-pointer bottom-8 px-6 py-[18px] bg-[#0070FF] text-white rounded-md flex items-center"
     >
-        <span className="text-base font-semibold">Replay Animation</span>
+        <span className="text-sm tracking-wide" style={{ fontFamily: 'Gilroy, sans-serif' }}>Play animation</span>
     </button>
 );
 
